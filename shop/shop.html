@@ -3,145 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <title>Fuuka Fans Forever Shop</title>
+    <link type='text/css' href='shop.css' rel='stylesheet'>
 
 </head>
 <body>
-<div>
-<div>
+<div id="body">
+<div id="fixed">
+<div id="menu">
     <ul>
         <li><a href="#">Recommendations</a></li>
         <li><a href="#">Basket</a></li>
         <li><a href="#">Help</a></li>
     </ul>
 </div>
-<div>
-    <div>
+</div>
+<div id="header">
+    <div id="headerImage">
         <a href="#"><img src="../images/fuuka.jpg"></a>
     </div>
-    <div>
+    <div id="headerTitle">
         <div>Fuuka Fans Forever</div>
 
     </div>
     
 </div>
 
-<div>
-    <div>
-        <span>Departments</span>
-        <ul>
-            <li>
-                <a href="#"><span>Any Category</span></a>
-            </li>
-            <li class="selected">Video Games</li>
-            <li>
-                <a href="#">
-                    <span>Nintendo 3DS Games</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span >PlayStation 2 Games</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span >Sony PSP Games</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span >Nintendo DS Games</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span >Xbox Games</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span >PC Games</span>
-                </a>
-            </li>
-        </ul>
+<div id="columns">
+<div id="sideMenu">
+    <div class="pointMenu">
+        <details open>
+            
+            <summary> Departments </summary>
+            <a href="#"><span>Any Category</span></a>
+            <a href="#"><span>Nintendo 3DS Games</span></a>
+            <a href="#"><span >PlayStation 2 Games</span></a>
+            <a href="#"><span >Sony PSP Games</span></a>
+            <a href="#"><span >Nintendo DS Games</span></a>
+            <a href="#"><span >Xbox Games</span></a>
+            <a href="#"><span >PC Games</span></a>
+        </details>
     </div>
 
-    <div>
-        <span>Release Date</span>
-        <ul>
-            <li>
-                <a href="#">
-                    <span >Last 30 days</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span >Last 90 days</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span >Coming Soon</span>
-                </a>
-            </li>
-        </ul>
+    <div class="pointMenu">
+        <details open>
+            
+            <summary> Release Date </summary>
+            <a href="#"><span>Last 30 days</span></a>
+            <a href="#"><span>Last 90 days</span></a>
+            <a href="#"><span >Coming Soon</span></a>
+        </details>
     </div>
 
-    <div>
-        <span>Brand</span>
-        <ul>
-            <li>
-                <a href="#">
-                    <span >Atlus</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span >Nintendo</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span >Namco Bandai Games</span>
-                </a>
-            </li>
-        </ul>
+    <div class="pointMenu">
+        <details open>
+            
+            <summary> Brand </summary>
+            <a href="#"><span>Atlus</span></a>
+            <a href="#"><span>Nintendo</span></a>
+            <a href="#"><span >Namco Bandai Games</span></a>
+        </details>
     </div>
 
-    <div>
-        <span>ESRB Rating</span>
-        <ul>
-            <li>
-                <a href="#">
-                    <span >Mature</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span >Teen</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span >Everyone</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span >Rating Pending</span>
-                </a>
-            </li>
-        </ul>
+    <div class="pointMenu">
+        <details open>
+            
+            <summary> ESRB Rating </summary>
+            <a href="#"><span>Mature</span></a>
+            <a href="#"><span>Teen</span></a>
+            <a href="#"><span >Everyone</span></a>
+            <a href="#"><span >Rating Pending</span></a>
+        </details>
     </div>
 </div>
 
-<div>
-<div>
+<div id="rightColumn">
+<div id="category">
     <a href="#">Video Games</a>
     <span>&raquo;</span>
     <a href="#">Shin Megami Tensei</a>
 </div>
-<div>
+<div id="relatedSearches">
     <span>Related Searches:</span>
     <a href="#">Soul Hackers</a>,
     <a href="#">Persona</a>,
@@ -151,14 +92,12 @@
 <div id="products">
 <ul>
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/smt-iv.jpg" />
-            <div >
-                <img src="../images/smt-iv.jpg" />
-            </div>
+            <img id="image11" class="image1" src="../images/smt-iv.jpg" />
+            <span id="image12" class="image2"><img src="../images/smt-iv.jpg" /></span>
         </a>
-        <div >
+        <div class="textGame">
             <a href="#">Shin Megami Tensei IV</a>
             <span>by Altus (ESRB Rating: Mature)</span>
         </div>
@@ -166,14 +105,12 @@
     </section>
 </li>
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/nocturne.jpg" />
-            <div >
-                <img src="../images/nocturne.jpg" />
-            </div>
+            <img  class="image1" src="../images/nocturne.jpg" />
+            <span id="image12" class="image2"><img  src="../images/nocturne.jpg" /></span>
         </a>
-        <div >
+        <div class="textGame" >
             <a href="#">Shin Megami Tensei Nocturne</a>
             <span>by Index Digital Media, Inc (ESRB Rating: Mature)</span>
         </div>
@@ -181,14 +118,12 @@
     </section>
 </li>
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/smt-dso.jpg" />
-            <div >
-                <img src="../images/smt-dso.jpg" />
-            </div>
+            <img class="image1" src="../images/smt-dso.jpg" />
+            <span id="image12" class="image2"><img src="../images/smt-dso.jpg" /></span>
         </a>
-        <div >
+        <div  class="textGame">
             <a href="#">Shin Megami Tensei: Devil Survivor Overclocked</a>
             <span>by Atlus (ESRB Rating: Teen)</span>
         </div>
@@ -197,14 +132,12 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/smt-dssh.jpg" />
-            <div >
-                <img src="../images/smt-dssh.jpg" />
-            </div>
+            <img class="image1" src="../images/smt-dssh.jpg" />
+            <span id="image12" class="image2"><img src="../images/smt-dssh.jpg"  /></span>
         </a>
-        <div >
+        <div  class="textGame">
             <a href="#">Shin Megami Tensei: Devil Summoner: Soul Hackers</a>
             <span>by Atlus (ESRB Rating: Mature)</span>
         </div>
@@ -213,15 +146,13 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/smt-dd1.jpg" />
-            <div >
-                <img src="../images/smt-dd1.jpg" />
-            </div>
+            <img class="image1" src="../images/smt-dd1.jpg" />
+            <span id="image12" class="image2"><img src="../images/smt-dd1.jpg" /></span>
         </a>
-        <div >
-            <a href="#"><span>Shin Megami Tensei: Digital Devil Saga</span></a>
+        <div class="textGame" >
+            <a href="#">Shin Megami Tensei: Digital Devil Saga</a>
             <span>by Atlus (ESRB Rating: Mature)</span>
         </div>
         
@@ -229,14 +160,12 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/smt-ds2.jpg" />
-            <div >
-                <img src="../images/smt-ds2.jpg" />
-            </div>
+            <img class="image1" src="../images/smt-ds2.jpg" />
+            <span id="image12" class="image2"><img src="../images/smt-ds2.jpg" /></span>
         </a>
-        <div >
+        <div class="textGame" >
             <a href="#">Shin Megami Tensei: Devil Survivor 2</a>
             <span>by Atlus Video Games (ESRB Rating: Teen)</span>
         </div>
@@ -245,15 +174,13 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/smt-i.jpg">
-            <div >
-                <img src="../images/smt-i.jpg">
-            </div>
+            <img class="image1" src="../images/smt-i.jpg">
+            <span id="image12" class="image2"><img src="../images/smt-i.jpg" /></span>
         </a>
-        <div >
-            <a href="#"><span>Shin Megami Tensei Imagine [Game Connect]</span></a>
+        <div class="textGame" >
+            <a href="#">Shin Megami Tensei Imagine [Game Connect]</a>
             <span>by ATLUS ONLINE</span>
         </div>
         
@@ -261,15 +188,13 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/smt-dd2.jpg">
-            <div >
-                <img src="../images/smt-dd2.jpg">
-            </div>
+            <img class="image1" src="../images/smt-dd2.jpg">
+            <span id="image12" class="image2"><img src="../images/smt-dd2.jpg"/></span>
         </a>
-        <div >
-            <a href="#"><span>Shin Megami Tensei Digital Devil Saga 2</span></a>
+        <div class="textGame" >
+            <a href="#">Shin Megami Tensei Digital Devil Saga 2</a>
             <span>by Atlus (ESRB Rating: Mature)</span>
         </div>
         
@@ -277,14 +202,12 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/smt-sj.jpg">
-            <div >
-                <img src="../images/smt-sj.jpg">
-            </div>
+            <img class="image1" src="../images/smt-sj.jpg">
+            <span id="image12" class="image2"><img src="../images/smt-sj.jpg" /></span>
         </a>
-        <div>
+        <div class="textGame">
             <a href="#">Shin Megami Tensei: Strange Journey</a>
             <span>by Atlus Video Games (ESRB Rating: Mature)</span>
         </div>
@@ -293,14 +216,12 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/smt-dsrkvstsa.jpg">
-            <div>
-                <img src="../images/smt-dsrkvstsa.jpg">
-            </div>
+            <img class="image1" src="../images/smt-dsrkvstsa.jpg">
+            <span id="image12" class="image2"><img src="../images/smt-dsrkvstsa.jpg" /></span>
         </a>
-        <div>
+        <div class="textGame">
             <a href="#">Shin Megami Tensei Devil Summoner</a>
             <span>by Atlus Video Games (ESRB Rating: Mature)</span>
         </div>
@@ -309,14 +230,12 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/persona-4.jpg">
-            <div>
-                <img src="../images/persona-4.jpg">
-            </div>
+            <img class="image1" src="../images/persona-4.jpg">
+            <span id="image12" class="image2"><img src="../images/persona-4.jpg" /></span>
         </a>
-        <div>
+        <div class="textGame">
             <a href="#">Shin Megami Tensei: Persona 4</a>
             <span>by Atlus (ESRB Rating: Mature)</span>
         </div>
@@ -325,14 +244,12 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/smt-dsrkvska.jpg">
-            <div>
-                <img src="../images/smt-dsrkvska.jpg">
-            </div>
+            <img class="image1" src="../images/smt-dsrkvska.jpg">
+            <span id="image12" class="image2"><img src="../images/smt-dsrkvska.jpg" /></span>
         </a>
-        <div>
+        <div class="textGame">
             <a href="#">Shin Megami Tensei: Devil Summoner 2: Raidou Kuzunoha versus King Abaddon</a>
             <span>by Atlus (ESRB Rating: Mature)</span>
         </div>
@@ -341,14 +258,12 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/smt-ds1.jpg">
-            <div>
-                <img src="../images/smt-ds1.jpg">
-            </div>
+            <img class="image1" src="../images/smt-ds1.jpg">
+            <span id="image12" class="image2"><img src="../images/smt-ds1.jpg" /></span>
         </a>
-        <div>
+        <div class="textGame">
             <a href="#">Shin Megami Tensei: Devil Survivor</a>
             <span>by Atlus (ESRB Rating: Teen)</span>
         </div>
@@ -357,14 +272,12 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/persona-3-fes.jpg">
-            <div>
-                <img src="../images/persona-3-fes.jpg">
-            </div>
+            <img class="image1" src="../images/persona-3-fes.jpg">
+            <span id="image12" class="image2"><img src="../images/persona-3-fes.jpg" /></span>
         </a>
-        <div>
+        <div class="textGame">
             <a href="#">Shin Megami Tensei: Persona 3 FES</a>
             <span>by Atlus (ESRB Rating: Mature)</span>
         </div>
@@ -373,14 +286,12 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/persona-3-port.jpg">
-            <div>
-                <img src="../images/persona-3-port.jpg">
-            </div>
+            <img class="image1" src="../images/persona-3-port.jpg">
+            <span id="image12" class="image2"><img src="../images/persona-3-port.jpg"/></span>
         </a>
-        <div>
+        <div class="textGame">
             <a href="#">Shin Megami Tensei: Persona 3 Portable</a>
             <span>by Atlus Video Games (ESRB Rating: Mature)</span>
         </div>
@@ -389,14 +300,12 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/persona-1.jpg">
-            <div>
-                <img src="../images/persona-1.jpg">
-            </div>
+            <img class="image1" src="../images/persona-1.jpg">
+            <span id="image12" class="image2"><img src="../images/persona-1.jpg" /></span>
         </a>
-        <div>
+        <div class="textGame">
             <a href="#">Shin Megami Tensei: Persona</a>
             <span>by Atlus Video Games (ESRB Rating: Teen)</span>
         </div>
@@ -405,14 +314,12 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/persona-2.jpg">
-            <div>
-                <img src="../images/persona-2.jpg">
-            </div>
+            <img  class="image1" src="../images/persona-2.jpg">
+            <span id="image12" class="image2"><img src="../images/persona-2.jpg" /></span>
         </a>
-        <div>
+        <div class="textGame">
             <a href="#">Shin Megami Tensei: Persona 2 Innocent Sin</a>
             <span>by Atlus Video Games (ESRB Rating: Teen)</span>
         </div>
@@ -421,14 +328,12 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/smt-iv-lim.jpg">
-            <div>
-                <img src="../images/smt-iv-lim.jpg">
-            </div>
+            <img class="image1" src="../images/smt-iv-lim.jpg">
+            <span id="image12" class="image2"><img src="../images/smt-iv-lim.jpg"/></span>
         </a>
-        <div>
+        <div class="textGame">
             <a href="#">Shin Megami Tensei IV Limited Edition</a>
             <span>by Atlus (ESRB Rating: Mature)</span>
         </div>
@@ -437,14 +342,12 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/smt-dsrkvska-lim.jpg">
-            <div>
-                <img src="../images/smt-dsrkvska-lim.jpg">
-            </div>
+            <img class="image1" src="../images/smt-dsrkvska-lim.jpg">
+            <span id="image12" class="image2"><img src="../images/smt-dsrkvska-lim.jpg"/></span>
         </a>
-        <div>
+        <div class="textGame">
             <a href="#">Shin Megami Tensei Devil Summoner 2 with Bonus Limited Edition Raiho Plushie [PlayStation 2]</a>
             <span>by Atlus (ESRB Rating: Mature)</span>
         </div>
@@ -453,14 +356,12 @@
 </li>
 
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/persona-3.jpg">
-            <div>
-                <img src="../images/persona-3.jpg">
-            </div>
+            <img class="image1" src="../images/persona-3.jpg">
+            <span id="image12" class="image2"><img src="../images/persona-3.jpg" /></span>
         </a>
-        <div>
+        <div class="textGame">
             <a href="#">Shin Megami Tensei: Persona 3</a>
             <span>by Atlus (ESRB Rating: Mature)</span>
         </div>
@@ -468,14 +369,12 @@
     </section>
 </li>
 <li>
-    <section>
+    <section class="container">
         <a href="#">
-            <img src="../images/smt-nine.jpg">
-            <div>
-                <img src="../images/smt-nine.jpg">
-            </div>
+            <img class="image1" src="../images/smt-nine.jpg">
+            <span id="image12" class="image2"><img src="../images/smt-nine.jpg" /></span>
         </a>
-        <div>
+        <div class="textGame">
             <a href="#">Shin Megami Tensei Nine [Japan Import]</a>
             <span>by Atlus (ESRB Rating: Rating Pending)</span>
         </div>
@@ -484,7 +383,7 @@
 </li>
 </ul>
 </div>
-<div>
+<div id="navPage">
     <a href="">&laquo; Previous Page</a>
     <a href="">1</a>
     <a href="#">2</a>
@@ -493,6 +392,7 @@
 </div>
 </div>
 <div></div>
+</div>
 </div>
 </body>
 </html>

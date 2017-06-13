@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+* {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+*/
+
+html { 
+	background-color: white; 
+	font-family: arial;
+}
+
+body { 
+	margin: 0 150px; 
+	background-color: rgb(235, 243, 247);
+	border-left: 3px solid #d9d9d9;
+	border-right: 3px solid #d9d9d9;
+	min-width: 800px;
+	max-width: 80%;
+	padding: 50px;
+}
+
+#headImage {
+    position: relative;
+}
+
+#headTitle {
+	position: absolute;
+	left: 380px;
+	top: 52px;
+	width: 300px;
+    font-size: 200%;
+    clear: right;
+}
+
+#menu {
+	position: absolute;
+	left: 355px;
+	top: 130px;
+	min-width: 394px;
+	max-width: 394px;
+    margin: 0px 20px;
+
+}
+
+#searchBar {
+	position: absolute;
+	left: 765px;
+	top: 100px;
+	margin: 40px 0px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#menu ul li {
+    float: left;
+    /*display: inline;*/
+}
+
+#menu ul li a {
+    display: block;
+    color: black;
+    background: rgb(173, 192, 204);
+    text-align: center;
+    padding: 6px 8px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+	padding: 6px 8px 2px 8px;
+	border-bottom: 4px solid #009999;
+}
+
+#articleTitle {
+	clear: both;
+	color: #545c78;
+	padding: 10px 0 0 0;
+}
+
+#articleAuthor img {
+	width: 150px;
+}
+
+#articleAuthor h4 {
+	font-weight: 100;
+	display: inline-block;
+	box-sizing: border-box;
+}
+#articleAuthor {
+	margin: 20px 0;
+}
+
+#articleDate {
+	clear: both;
+	font-size: 75%;
+	margin: 0 0 20px 0;
+}
+
+#articleText {
+	font-size: 95%;
+}
+
+#articleText h3 {
+	margin: 20px 0;
+}
+
+.blueTitles {
+	color: #545c78;
+}
+
+.blueLinks {
+	color: #3399ff;
+	text-decoration: none;
+}
